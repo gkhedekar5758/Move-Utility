@@ -1,0 +1,42 @@
+﻿<Window x:Class="Move_Utility.CustomeMessageBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       WindowStyle="SingleBorderWindow"
+      Topmost="True" SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False"
+        TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" UseLayoutRounding="True"
+        Title="Move Utility" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="White" MinHeight="69">
+            <DockPanel>
+                <Image Name="Image_MessageBox" Width="32" Height="32" HorizontalAlignment="Left" DockPanel.Dock="Left" Margin="30,0,0,0" Visibility="Visible"/>
+                <TextBlock Name="TextBlock_Message" TextWrapping="Wrap" MaxWidth="500" Width="Auto"
+                       VerticalAlignment="Center" Margin="12,20,41,15" />
+            </DockPanel>
+        </Grid>
+        <Grid Grid.Row="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" MinHeight="49">
+            <DockPanel Margin="5,0">
+
+                
+                <!-- No Button -->
+                <Button Name="Button_No" MinWidth="88" MaxWidth="160" Height="26" Margin="5,0" HorizontalAlignment="Right" Visibility="Visible"
+                        DockPanel.Dock="Right" Click="Button_No_Click">
+                    <Label Name="Label_No" Padding="0" Margin="10,0">_No</Label>
+                </Button>
+                <!-- End No Button -->
+
+                <!-- Yes Button -->
+                <Button Name="Button_Yes" MinWidth="88" MaxWidth="160" Height="26" Margin="35,0,5,0" HorizontalAlignment="Right" Visibility="Visible"
+                        DockPanel.Dock="Right" Click="Button_Yes_Click">
+                    <Label Name="Label_Yes" Padding="0" Margin="10,0">_Yes</Label>
+                </Button>
+                <!-- End Yes Button -->
+            </DockPanel>
+        </Grid>
+    </Grid>
+    <!-- This is the window that will generate the custome message box  -->
+</Window>

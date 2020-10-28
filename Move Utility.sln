@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move Utility", "Move Utility\Move Utility.csproj", "{59A5F30A-CEBA-4AC3-B141-70936630449D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allscripts.VSTSLibrary", "Allscripts.VSTSLibrary\Allscripts.VSTSLibrary.csproj", "{D854F935-D047-4F07-974F-75AEE9C4E532}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A5F30A-CEBA-4AC3-B141-70936630449D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A5F30A-CEBA-4AC3-B141-70936630449D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A5F30A-CEBA-4AC3-B141-70936630449D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A5F30A-CEBA-4AC3-B141-70936630449D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D854F935-D047-4F07-974F-75AEE9C4E532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D854F935-D047-4F07-974F-75AEE9C4E532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D854F935-D047-4F07-974F-75AEE9C4E532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D854F935-D047-4F07-974F-75AEE9C4E532}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6969DF6-E467-4D83-BCDD-E8D24E125D22}
+	EndGlobalSection
+EndGlobal
